@@ -13,3 +13,11 @@ then
     echo $i
 fi;
 done 
+
+######################################
+#
+#Shell script to find the number of occurrence of S in misissipi
+#######################################
+
+x=mississipi
+grep -o "s" <<<"$x" | wc -l
